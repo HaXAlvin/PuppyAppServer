@@ -1,0 +1,2207 @@
+
+
+
+
+
+
+
+
+
+
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=File-List href="villmast_excel.files/filelist.xml">
+<link rel=Edit-Time-Data href="villmast_excel.files/editdata.mso">
+<link rel=OLE-Object-Data href="villmast_excel.files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>tswenyaw</o:Author>
+  <o:LastAuthor>tswenyaw</o:LastAuthor>
+  <o:Created>2011-02-26T03:49:57Z</o:Created>
+  <o:LastSaved>2011-02-26T15:08:31Z</o:LastSaved>
+  <o:Company>Microsoft</o:Company>
+  <o:Version>11.6360</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:DownloadComponents/>
+  <o:LocationOfComponents HRef="file:///E:\"/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+.font5
+	{color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體, serif;
+	mso-font-charset:136;}
+.font7
+	{color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:一般;
+	mso-style-id:0;}
+.style21
+	{color:blue;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	mso-style-name:超連結;
+	mso-style-id:8;}
+a:link
+	{color:blue;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:新細明體, serif;
+	mso-font-charset:136;}
+a:visited
+	{color:purple;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:新細明體, serif;
+	mso-font-charset:136;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	color:black;
+	border:.5pt solid windowtext;}
+.xl25
+	{mso-style-parent:style0;
+	color:black;
+	font-family:細明體, monospace;
+	mso-font-charset:136;
+	mso-number-format:"\@";
+	border:.5pt solid windowtext;}
+.xl26
+	{mso-style-parent:style21;
+	color:black;
+	text-decoration:underline;
+	text-underline-style:single;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;}
+.xl27
+	{mso-style-parent:style0;
+	color:black;
+	font-family:細明體, monospace;
+	mso-font-charset:136;
+	mso-number-format:"\@";
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;}
+.xl28
+	{mso-style-parent:style0;
+	color:black;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;}
+.xl29
+	{mso-style-parent:style21;
+	color:black;
+	text-decoration:underline;
+	text-underline-style:single;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;}
+.xl30
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	mso-number-format:"\@";
+	border:1.0pt solid windowtext;}
+.xl31
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	border:1.0pt solid windowtext;}
+.xl32
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	vertical-align:bottom;
+	border:1.0pt solid windowtext;
+	white-space:normal;}
+.xl33
+	{mso-style-parent:style0;
+	border:.5pt solid windowtext;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>330</x:DefaultRowHeight>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:PaperSizeIndex>9</x:PaperSizeIndex>
+      <x:HorizontalResolution>1200</x:HorizontalResolution>
+      <x:VerticalResolution>1200</x:VerticalResolution>
+     </x:Print>
+     <x:Selected/>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>5</x:ActiveRow>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet2</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>330</x:DefaultRowHeight>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet3</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>330</x:DefaultRowHeight>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>8100</x:WindowHeight>
+  <x:WindowWidth>20340</x:WindowWidth>
+  <x:WindowTopX>0</x:WindowTopX>
+  <x:WindowTopY>45</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=2264 style='border-collapse:
+ collapse;table-layout:fixed;width:1700pt'>
+ <col width=206 style='mso-width-source:userset;mso-width-alt:6592;width:155pt'>
+ <col width=72 span=3 style='mso-width-source:userset;mso-width-alt:2304;
+ width:54pt'>
+ <col width=97 style='mso-width-source:userset;mso-width-alt:3104;width:73pt'>
+ <col width=72 style='width:54pt'>
+ <col width=36 style='mso-width-source:userset;mso-width-alt:1152;width:27pt'>
+ <col width=94 style='mso-width-source:userset;mso-width-alt:3008;width:71pt'>
+ <col width=256 style='mso-width-source:userset;mso-width-alt:8192;width:192pt'>
+ <col width=132 style='mso-width-source:userset;mso-width-alt:4224;width:99pt'>
+ <col width=185 style='mso-width-source:userset;mso-width-alt:5920;width:139pt'>
+ <col width=300 style='mso-width-source:userset;mso-width-alt:9600;width:225pt'>
+ <col width=254 style='mso-width-source:userset;mso-width-alt:8128;width:191pt'>
+ <col width=64 style='mso-width-source:userset;mso-width-alt:2048;width:48pt'>
+ <col width=169 style='mso-width-source:userset;mso-width-alt:5408;width:127pt'>
+ <col width=183 style='mso-width-source:userset;mso-width-alt:5856;width:137pt'>
+ <tr height=23 style='height:17.25pt'>
+  <td height=23 width=206 style='height:17.25pt;width:155pt'>村里長一覽表</td>
+  <td width=72 style='width:54pt'></td>
+  <td width=72 style='width:54pt'></td>
+  <td width=72 style='width:54pt'></td>
+  <td width=97 style='width:73pt'></td>
+  <td width=72 style='width:54pt'></td>
+  <td width=36 style='width:27pt'></td>
+  <td width=94 style='width:71pt'></td>
+  <td width=256 style='width:192pt'></td>
+  <td width=132 style='width:99pt'></td>
+  <td width=185 style='width:139pt'></td>
+  <td width=300 style='width:225pt'></td>
+  <td width=254 style='width:191pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=169 style='width:127pt'></td>
+  <td width=183 style='width:137pt'></td>
+ </tr>
+ <tr height=23 style='height:17.25pt'>
+  <td height=23 class=xl30 style='height:17.25pt'>選舉年</td>
+  <td class=xl31 style='border-left:none'>市縣別</td>
+  <td class=xl31 style='border-left:none'>鄉鎮市</td>
+  <td class=xl31 style='border-left:none'>村里別</td>
+  <td class=xl31 style='border-left:none'>姓<font class="font7"><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font><font
+  class="font5">名</font></td>
+  <td class=xl31 style='border-left:none'>職稱</td>
+  <td class=xl31 style='border-left:none'>性別</td>
+  <td class=xl31 style='border-left:none'>黨籍</td>
+  <td class=xl32 width=256 style='border-left:none;width:192pt'>村里辦公處(服務處)地址</td>
+  <td class=xl31 style='border-left:none'>辦公電話</td>
+  <td class=xl31 style='border-left:none'>電子信箱</td>
+  <td class=xl31 style='border-left:none'>學<font class="font7"><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></font><font class="font5">歷</font></td>
+  <td class=xl31 style='border-left:none'>簡<font class="font7"><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></font><font
+  class="font5">歷</font></td>
+  <td class=xl31 style='border-left:none'>所轄鄰數</td>
+  <td class=xl31 style='border-left:none'>布落格</td>
+  <td class=xl31 style='border-left:none'>連結網頁</td>
+ 
+  
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#33622;&#34276;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#35377;&#12288;  &#38634;&#36066;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#33622;&#34276;&#37324;4&#37168;&#24460;&#21405;&#20180;25&#34399;&#20043;4</td>
+  <td class=xl28 style='border-left:none'>05-2326286</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>10</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#24460;&#28246;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#27946;&#12288;&#12288;&#29486;&#27494;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'>&#20013;&#22283;&#22283;&#27665;&#40680;</td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#24460;&#28246;&#37324;&#20445;&#32681;&#36335;223&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2760313</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#24037;&#30050;&#26989;</td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>17</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#20161;&#32681;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#35377;&#12288;  &#32654;&#38597;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#20161;&#32681;&#37324;6&#37168;&#22025;&#21335;&#34903;63&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2757755</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>17</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#20013;&#24196;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#40643;&#12288;&#12288;&#32020;&#32654;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#20013;&#24196;&#37324;&#22025;&#21271;&#34903;195&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2754768</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:0933-678645">0933-678645</a></td>
+  <td class=xl28 style='border-left:none'>&#23560;&#31185;&#30050;&#26989;</td>
+  <td class=xl28 style='border-left:none'>&#20013;&#24196;&#31038;&#21312;&#30332;&#23637;&#21332;&#26371;&#32317;&#24185;&#20107;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>25</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#38914;&#24196;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#33674;&#12288;&#12288;&#22825;&#22522;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#38914;&#24196;&#37324;11&#37168;&#32681;&#25945;&#34903;538&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2765298</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22283;&#20013;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>11</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#22323;&#38957;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26954;&#12288;&#12288;&#25991;&#20426;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#22323;&#38957;&#37324;&#26519;&#26862;&#26481;&#36335;684&#24055;21&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2772913</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#32654;&#22283;&#35199;&#22826;&#24179;&#27915;&#22823;&#23416;&#30050;</td>
+  <td class=xl28 style='border-left:none'>&#31934;&#24544;&#31038;&#21312;&#30332;&#23637;&#21332;&#26371;&#29702;&#20107;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>28</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#26032;&#24215;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26753;&#12288;&#12288;&#20161;&#35946;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#26032;&#24215;&#37324;7&#37168;&#26519;&#26862;&#26481;&#36335;269&#24055;102&#24324;8&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2756290</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;</td>
+  <td class=xl28 style='border-left:none'>&#26381;&#21209;&#26989;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>19</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#24460;&#24196;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#38515;&#12288;&#12288;&#22869;&#37665;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#24460;&#24196;&#37324;20&#37168;&#26519;&#26862;&#26481;&#36335;719&#24055;12&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2678847</td>
+  <td class=xl29 style='border-left:none'><a href="#"> </a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>20</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#29579;&#30000;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#39340;&#12288;&#12288;&#20037;&#24421;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#29579;&#30000;&#37324;4&#37168;&#20116;&#31119;&#34903;31&#24055;3&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2719158</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>16</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#24029;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#33865;&#12288;&#12288;&#23532;&#40251;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#26481;&#24029;&#37324;&#37329;&#40845;&#34903;200&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2768308</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#36786;&#23560;&#30050;</td>
+  <td class=xl28 style='border-left:none'>&#28129;&#27743;&#22823;&#23416;&#36864;&#20241;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>19</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#22826;&#24179;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26045;&#12288;&#12288;&#27427;&#25104;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'>&#20013;&#22283;&#22283;&#27665;&#40680;</td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#22826;&#24179;&#37324;&#26519;&#26862;&#26481;&#36335;163&#24055;82&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2775585</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:0929-943937">0929-943937</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;&#30050;&#26989;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;&#21312;&#20844;&#25152;&#37324;&#24185;&#20107;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>23</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#30439;&#21405;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#21570;&#12288;&#12288;&#32020;&#36275;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#30439;&#21405;&#37324;9&#37168;&#32663;&#27597;&#23534;31&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2760709</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>10</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#40575;&#23534;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#35613;&#12288;&#12288;&#37329;&#27054;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#40575;&#23534;&#37324;4&#37168;&#32005;&#27611;&#22500;159&#34399;&#38468;1</td>
+  <td class=xl28 style='border-left:none'>05-2768186</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22283;&#20013;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>8</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#38263;&#31481;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#27743;&#12288;&#12288;&#25391;&#31456;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#38263;&#31481;&#37324;&#22823;&#38597;&#36335;&#20108;&#27573;60&#24055;3&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2716218</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#22823;&#23416;&#30050;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;&#26481;&#21312;&#35519;&#35299;&#22996;&#21729;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>19</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#30701;&#31481;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#20931;&#12288;&#12288;&#28113;&#24935;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#30701;&#31481;&#37324;15&#37168;&#24396;&#38464;&#36335;238&#24055;5&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2770876</td>
+  <td class=xl29 style='border-left:none'><a href="#"> </a></td>
+  <td class=xl28 style='border-left:none'>&#23560;&#31185;</td>
+  <td class=xl28 style='border-left:none'>&#26381;&#21209;&#26989;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>15</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#26032;&#38283;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#37041;&#12288;&#12288;&#32380;&#36066;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#26032;&#38283;&#37324;8&#37168;&#24066;&#23429;&#34903;21&#24055;46&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2258801</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22823;&#23416;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>21</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#23459;&#20449;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#40643;&#12288;&#12288;&#24314;&#38918;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#23459;&#20449;&#37324;11&#37168;&#23459;&#20449;&#34903;494&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2161199</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;</td>
+  <td class=xl28 style='border-left:none'>&#26381;&#21209;&#26989;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>11</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#33288;&#21335;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#30439;&#12288;&#12288;&#40599;&#24800;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#33288;&#21335;&#37324;&#21555;&#40179;&#21335;&#36335;17&#24055;22&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2291576</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#38748;&#23452;&#22823;&#23416;&#30050;</td>
+  <td class=xl28 style='border-left:none'>&#33521;&#35486;&#25945;&#24107;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>14</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#35920;&#24180;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#21776;&#12288;&#12288;&#29790;&#25391;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#35920;&#24180;&#37324;1&#37168;&#21555;&#40179;&#21335;&#36335;18&#24055;4&#34399;&#38468;2</td>
+  <td class=xl28 style='border-left:none'>05-2251304</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>15</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#33459;&#33609;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#21129;&#12288;&#12288;&#19993;&#20237;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#33459;&#33609;&#37324;11&#37168;&#23459;&#20449;&#34903;248&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2223875</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>20</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#33459;&#23433;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#38515;&#12288;&#12288;&#25991;&#24428;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#33459;&#23433;&#37324;15&#37168;&#33459;&#23433;&#36335;291&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2278133</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;</td>
+  <td class=xl28 style='border-left:none'>&#26381;&#21209;&#26989;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>15</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#38914;&#23534;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#34081;&#12288;&#12288;&#25391;&#30427;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#38914;&#23534;&#37324;3&#37168;&#20449;&#33288;&#34903;78&#24055;7&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2287077</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22283;&#23567;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>14</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#23433;&#23534;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#21570;&#12288;&#12288;&#25991;&#38596;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#23433;&#23534;&#37324;7&#37168;&#21555;&#40179;&#21335;&#36335;227&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2278256</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22283;&#20013;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>19</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#33288;&#23433;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#37101;&#12288;&#12288;&#33538;&#24544;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#33288;&#23433;&#37324;3&#37168;&#33288;&#23433;&#34903;16&#24055;3&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2250861</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>26</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#33288;&#26449;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26753;&#12288;&#28851;&#25991;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#33288;&#26449;&#37324;&#28330;&#33288;&#34903;231&#24055;20&#24324;6&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2780855</td>
+  <td class=xl29 style='border-left:none'><a href="#"> </a></td>
+  <td class=xl28 style='border-left:none'>&#21021;&#20013;</td>
+  <td class=xl28 style='border-left:none'>&#33288;&#26449;&#37324;&#31532;5.6&#23622;&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>18</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#33288;&#20161;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#21570;&#12288;&#12288;&#25991;&#31456;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#33288;&#20161;&#37324;8&#37168;&#36557;&#36637;&#36335;138&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2390027</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>17</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#36942;&#28317;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26519;&#12288;&#26690;&#27954;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#36942;&#28317;&#37324;&#24247;&#27138;&#34903;45&#34399;</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;</td>
+  <td class=xl28 style='border-left:none'>&#22825;&#25562;&#26053;&#34892;&#31038;&#21103;&#32317;&#32147;&#29702;&#12289;&#26481;&#21312;&#29694;&#20219;&#35519;&#35299;&#22996;&#21729;&#12289;&#21271;&#28207;&#26397;&#22825;&#23470;&#20845;&#23229;&#37329;&#38918;&#23815;&#36686;&#29677;&#26371;&#21103;&#26371;&#38263;&#12289;&#23439;&#38678;&#24314;&#35373;&#20844;&#21496;&#33891;&#20107;&#12290;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>16</td>  
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#27665;&#26063;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#21129;&#12288;&#12288;&#23447;&#28304;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#27665;&#26063;&#37324;&#25991;&#26124;&#34903;151&#24055;17&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2292227</td>
+  <td class=xl29 style='border-left:none'><a href="#"> </a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;&#30050;&#26989;</td>
+  <td class=xl28 style='border-left:none'>&#21129;&#37324;&#38263;&#38622;&#32905;&#39151;&#24215;&#36000;&#36012;&#20154;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>12</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#26397;&#38525;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#21555;&#24373;&#12288;&#31168;&#33521;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#26397;&#38525;&#37324;&#25991;&#26124;&#34903;26&#24055;1&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2284080</td>
+  <td class=xl29 style='border-left:none'><a href="#"> </a></td>
+  <td class=xl28 style='border-left:none'>&#23560;&#31185;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>0</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#33775;&#21335;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#34081;&#12288;&#12288;&#22283;&#27153;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#33775;&#21335;&#37324;15&#37168;&#20809;&#24425;&#34903;91&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2277612</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;</td>
+  <td class=xl28 style='border-left:none'>&#21830;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>18</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#33288;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26954;&#12288;&#12288;&#31177;&#27054;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#26481;&#33288;&#37324;11&#37168;&#20013;&#23665;&#36335;193&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2224320</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#23560;&#31185;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>15</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#20013;&#23665;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#27472;&#12288;&#12288;&#38525;&#26126;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'>&#20013;&#22283;&#22283;&#27665;&#40680;</td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#20013;&#23665;&#37324;&#23433;&#27138;&#34903;2&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2776678</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;&#30050;&#26989;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#24179;&#37324;&#31532;7&#23622;&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>18</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#20013;&#22830;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#24278;&#12288;&#26757;&#27743;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#20013;&#22830;&#37324;12&#37168;&#25104;&#20161;&#34903;203&#34399;&#20043;1</td>
+  <td class=xl28 style='border-left:none'>05-2247189</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22823;&#23416;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>18</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#26519;&#26862;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#29579;&#12288;&#12288;&#24291;&#31150;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#26519;&#26862;&#37324;1&#37168;&#23433;&#21644;&#34903;197&#24055;7&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2783485</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>18</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#21271;&#38272;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#27946;&#12288;&#12288;&#32681;&#26494;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#21271;&#38272;&#37324;15&#37168;&#26519;&#26862;&#35199;&#36335;53&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2776952</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#23560;&#31185;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>18</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#34349;&#28525;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26519;&#12288;&#12288;&#30753;&#26417;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#34349;&#28525;&#37324;&#23567;&#38597;&#36335;355&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2788518</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#35703;&#23560;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>14</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#25991;&#38597;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#24373;&#12288;&#12288;&#25991;&#25391;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#25991;&#38597;&#37324;5&#37168;&#26481;&#27915;&#26032;&#37032;455&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2783297</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;</td>
+  <td class=xl28 style='border-left:none'>&#26381;&#21209;&#26989;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>16</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#23433;&#26989;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#36899;&#12288;&#12288;&#28113;&#38642;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#23433;&#26989;&#37324;1&#37168;&#21555;&#40179;&#21335;&#36335;112&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2233663</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22283;&#20013;</td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>13</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#26481;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#32681;&#25945;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#27946;&#12288;&#25991;&#39333;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#26481;&#21312;&#32681;&#25945;&#37324;&#32681;&#25945;&#34903;794&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2762995</td>
+  <td class=xl29 style='border-left:none'><a href="#"> </a></td>
+  <td class=xl28 style='border-left:none'>&#26126;&#24535;&#24037;&#23560;&#30050;&#26989;</td>
+  <td class=xl28 style='border-left:none'>&#24066;&#35696;&#21729;&#27946;&#26377;&#20161;&#26381;&#21209;&#34389;&#20027;&#20219;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>16</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#39321;&#28246;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#37101;&#12288;&#21129;&#12288;&#31168;&#29664;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#39321;&#28246;&#37324;10&#37168;&#25991;&#21270;&#36335;694&#24055;28&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2323596</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>12</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#28246;&#37002;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26446;&#12288;&#39640;&#12288;&#28415;&#36275;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#28246;&#37002;&#37324;4&#37168;&#21338;&#24859;&#36335;&#19968;&#27573;197&#24055;5&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2320189</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>16</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#21271;&#27054;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#40643;&#12288;&#12288;&#31119;&#26519;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#21271;&#27054;&#37324;2&#37168;&#21521;&#27054;&#34903;223&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2910515</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#19977;&#23560;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>17</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#37325;&#33288;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26446;&#12288;&#12288;&#27491;&#33288;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#37325;&#33288;&#37324;11&#37168;&#21451;&#24544;&#36335;827&#24055;19&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2322694</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#23567;&#23416;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>15</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#31481;&#22285;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#37041;&#12288;&#12288;&#23041;&#35488;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#31481;&#22285;&#37324;26&#37168;&#24503;&#26126;&#36335;164&#34399;&#20845;&#27155;2</td>
+  <td class=xl28 style='border-left:none'>05-2911447</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>31</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#26032;&#21405;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26607;&#12288;&#12288;&#38748;&#23452;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#26032;&#21405;&#37324;2&#37168;&#40845;&#27743;&#34903;71&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2815556</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>18</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#20445;&#23433;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26446;&#12288;&#12288;&#25010;&#26704;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#20445;&#23433;&#37324;8&#37168;&#19990;&#36066;&#36335;&#19968;&#27573;613&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2335902</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22283;&#20013;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>12</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#21271;&#28246;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#35613;&#12288;&#12288;&#37528;&#20142;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#21271;&#28246;&#37324;2&#37168;&#21271;&#31038;&#23614;&#36335;128&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2375649</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#20116;&#23560;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>17</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#19979;&#22500;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#27946;&#12288;&#12288;&#22025;&#25991;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#19979;&#22500;&#37324;3&#37168;&#38914;&#22500;51&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2374128</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22283;&#20013;&#30050;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;&#19979;&#22500;&#37324;&#31532;5.6&#23622;&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>11</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#31481;&#26449;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#34157;&#12288;&#12288;&#24950;&#38918;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#31481;&#26449;&#37324;3&#37168;&#31481;&#23376;&#33139;50&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2384188</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22283;&#20013;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>9</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#22823;&#28330;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#33865;&#12288;&#12288;&#31179;&#34349;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#22823;&#28330;&#37324;10&#37168;&#22823;&#28330;&#36335;488&#24055;12&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2377288</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#20108;&#23560;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>14</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#31119;&#20840;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#34157;&#12288;&#12288;&#24314;&#26519;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#31119;&#20840;&#37324;6&#37168;&#21271;&#28207;&#36335;86&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2331208</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;&#32900;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>29</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#24179;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#27946;&#12288;&#12288;&#40599;&#38634;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#35199;&#24179;&#37324;&#37329;&#23665;&#36335;&#65301;&#24055;&#65297;&#65302;&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2294057</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22283;&#20013;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>0</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#30938;&#30936;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#29579;&#12288;&#24373;&#37670;&#28113;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#30938;&#30936;&#37324;4&#37168;&#21451;&#24544;&#36335;327&#24055;4&#24324;11&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2358861</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#23567;&#23416;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>20</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#28207;&#22378;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26446;&#12288;&#12288;&#33538;&#23665;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#28207;&#22378;&#37324;2&#37168;&#32946;&#20154;&#36335;165&#24055;2&#24324;1&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2355433</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#20116;&#23560;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>15</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#38957;&#28207;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#28216;&#12288;&#12288;&#21843;&#26126;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#38957;&#28207;&#37324;1&#37168;&#29577;&#23665;&#36335;939&#34399;</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>7</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#21129;&#21405;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#38515;&#12288;&#12288;&#27743;&#22323;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#21129;&#21405;&#37324;6&#37168;&#21129;&#23500;&#34903;262&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2357517</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#23560;&#31185;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>33</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#26032;&#35199;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26954;&#12288;&#12288;&#25991;&#29618;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#26032;&#35199;&#37324;15&#37168;&#32769;&#21560;&#34903;31&#24055;22&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2855636</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>19</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#26360;&#38498;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#34157;&#12288;&#12288;&#21451;&#26519;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#26360;&#38498;&#37324;2&#37168;&#35199;&#38272;&#34903;194&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2259253</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22283;&#23567;&#30050;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;&#31532;6.7&#23622;&#37324;&#38263;</td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>19</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#22521;&#20803;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#34081;&#12288;&#12288;&#22372;&#40845;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#22521;&#20803;&#37324;5&#37168;&#25104;&#21151;&#34903;100&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2229020</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22823;&#23416;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>13</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#22402;&#26954;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#40643;&#12288;&#12288;&#29742;&#27054;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#22402;&#26954;&#37324;6&#37168;&#24314;&#25104;&#34903;58&#24055;73&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2850580</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>10</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#36554;&#24215;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#39340;&#12288;&#12288;&#40179;&#20976;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#36554;&#24215;&#37324;15&#37168;&#34349;&#24030;&#19968;&#34903;54&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2354878</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#23567;&#23416;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>21</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#31119;&#27665;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#38515;&#12288;&#12288;&#37329;&#24029;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'>&#27665;&#20027;&#36914;&#27493;&#40680;</td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#31119;&#27665;&#37324;9&#37168;&#31119;&#24030;&#20843;&#34903;49&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2361013</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22283;&#20013;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>24</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#28246;&#20839;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#40643;&#12288;&#12288;&#27491;&#19968;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'>&#20013;&#22283;&#22283;&#27665;&#40680;</td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#28246;&#20839;&#37324;4&#37168;&#28246;&#23376;&#20839;&#36335;87&#24055;1&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2351774</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22823;&#23416;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>19</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#32654;&#28304;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#32645;&#12288;&#12288;&#40179;&#20303;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#32654;&#28304;&#37324;3&#37168;&#26032;&#24196;&#19968;&#34903;33&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2854856</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#19977;&#23560;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>19</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#32946;&#33521;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26519;&#12288;&#12288;&#23791;&#36637;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#32946;&#33521;&#37324;20&#37168;&#22283;&#33775;&#34903;50&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2290166</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>22</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#33268;&#36960;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#23435;&#12288;&#12288;&#29141;&#29983;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'>&#20013;&#22283;&#22283;&#27665;&#40680;</td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#33268;&#36960;&#37324;12&#37168;&#26032;&#27054;&#36335;35&#24055;7&#34399;&#21313;&#27155;</td>
+  <td class=xl28 style='border-left:none'>05-2256828</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#20108;&#23560;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>20</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#20809;&#36335;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26519;&#12288;&#12288;&#26119;&#36066;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#20809;&#36335;&#37324;3&#37168;&#27665;&#29983;&#21335;&#36335;399&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2360872</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>22</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#32736;&#23729;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#38515;&#12288;&#12288;&#37329;&#34382;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'>&#20013;&#22283;&#22283;&#27665;&#40680;</td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#32736;&#23729;&#37324;2&#37168;&#24535;&#26119;&#34903;47&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2280001</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#20108;&#23560;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>13</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#33258;&#24375;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#34081;&#12288;&#12288;&#27491;&#24179;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#33258;&#24375;&#37324;15&#37168;&#27704;&#23433;&#34903;380&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2855333</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>19</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#27704;&#21644;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#34081;&#12288;&#12288;&#23447;&#22372;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#27704;&#21644;&#37324;8&#37168;&#27704;&#21644;&#34903;45&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2239313</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>14</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#26032;&#23500;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#24278;&#12288;&#12288;&#28113;&#29618;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#26032;&#23500;&#37324;&#27665;&#26063;&#36335;578&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2222070</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#20116;&#23560;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>17</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#25991;&#21270;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#38515;&#12288;&#12288;&#28113;&#23077;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'>&#20013;&#22283;&#22283;&#27665;&#40680;</td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#25991;&#21270;&#37324;9&#37168;&#20809;&#24425;&#34903;385&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2168222</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#19977;&#23560;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>14</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#27054;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26519;&#12288;&#12288;&#33459;&#24535;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#35199;&#27054;&#37324;16&#37168;&#26032;&#27054;&#36335;196&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2223095</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#20116;&#23560;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>19</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#22283;&#33775;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#33865;&#12288;&#12288;&#21213;&#21033;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#22283;&#33775;&#37324;5&#37168;&#25991;&#21270;&#36335;241&#24055;12&#34399;</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>12</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#30058;&#31038;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#37165;&#12288;&#12288;&#31168;&#29577;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#30058;&#31038;&#37324;2&#37168;&#35199;&#27054;&#34903;224&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2285397</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>15</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#23566;&#26126;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#21129;&#12288;&#24609;&#24935;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'>&#28961;</td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#23566;&#26126;&#37324;&#27665;&#29983;&#21335;&#36335;54&#34399;</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl29 style='border-left:none'><a href="#"> </a></td>
+  <td class=xl28 style='border-left:none'>&#22823;&#23416;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>15</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#24950;&#23433;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#40643;&#12288;&#12288;&#27054;&#33538;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#24950;&#23433;&#37324;1&#37168;&#21271;&#33288;&#34903;80&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2332514</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22283;&#20013;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>17</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#24460;&#39515;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#38515;&#12288;&#12288;&#20854;&#29983;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#24460;&#39515;&#37324;4&#37168;&#31481;&#25991;&#34903;86&#24055;10&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2315679</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>16</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#31119;&#23433;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#21555;&#12288;&#12288;&#37329;&#21644;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#31119;&#23433;&#37324;12&#37168;&#21271;&#28207;&#36335;370&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2333846</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#23567;&#23416;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>22</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#29509;&#23376;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#21555;&#12288;&#12288;&#21517;&#22478;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#29509;&#23376;&#37324;6&#37168;&#27665;&#29983;&#21335;&#36335;608&#24055;95&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2355330</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#20013;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>14</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#32005;&#29926;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#34081;&#12288;&#12288;&#26107;&#23731;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#32005;&#29926;&#37324;8&#37168;&#37325;&#24950;&#19968;&#34903;192&#34399;</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#23560;&#31185;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>8</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#20445;&#31119;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#26446;&#12288;&#25391;&#29004;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#20445;&#31119;&#37324;12&#37168;&#19990;&#36066;&#36335;&#19968;&#27573;643&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2342889</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#39640;&#32887;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>13</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#20445;&#29983;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#34157;&#12288;&#12288;&#34311;&#26126;&#29664;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>女</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#20445;&#29983;&#37324;10&#37168;&#21512;&#27743;&#34903;236&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2320834</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22283;&#20013;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>15</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+             
+ 
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl27 style='height:16.5pt'>107&#24180;&#24230;&#26449;&#37324;&#38263;&#36984;&#33289;</td>
+  <td class=xl28 style='border-left:none'>&#22025;&#32681;&#24066;</td>
+  <td class=xl28 style='border-left:none'>&#35199;&#21312;</td>
+  <td class=xl28 style='border-left:none'>&#21271;&#26032;&#37324;</td>
+  <td class=xl28 style='border-left:none'>&#21555;&#12288;&#12288;&#27704;&#35920;</td>
+  <td class=xl28 style='border-left:none'>&#37324;&#38263;</td>
+  <td class=xl28 style='border-left:none'>男</td>
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'>(600)&#22025;&#32681;&#24066;&#35199;&#21312;&#21271;&#26032;&#37324;4&#37168;&#28023;&#21475;&#23534;&#36335;72&#24055;22&#34399;</td>
+  <td class=xl28 style='border-left:none'>05-2324597</td>
+  <td class=xl29 style='border-left:none'><a href="mailto:無">無</a></td>
+  <td class=xl28 style='border-left:none'>&#22283;&#20013;&#30050;</td>
+  <td class=xl28 style='border-left:none'></td>  
+  <td class=xl24 align=right style='border-top:none;border-left:none' x:num>5</td>  
+  <td class=xl28 style='border-left:none'></td>
+  <td class=xl28 style='border-left:none'></td>
+ 
+ 
+ </tr>
+            
+          
+ 
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=206 style='width:155pt'></td>
+  <td width=72 style='width:54pt'></td>
+  <td width=72 style='width:54pt'></td>
+  <td width=72 style='width:54pt'></td>
+  <td width=97 style='width:73pt'></td>
+  <td width=72 style='width:54pt'></td>
+  <td width=36 style='width:27pt'></td>
+  <td width=94 style='width:71pt'></td>
+  <td width=256 style='width:192pt'></td>
+  <td width=132 style='width:99pt'></td>
+  <td width=185 style='width:139pt'></td>
+  <td width=300 style='width:225pt'></td>
+  <td width=254 style='width:191pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=169 style='width:127pt'></td>
+  <td width=183 style='width:137pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
