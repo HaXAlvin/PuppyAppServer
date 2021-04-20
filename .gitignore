@@ -1,2 +1,4 @@
 /reset/*.xlsx
 .DS_Store
+.idea/
+__pycache__/
